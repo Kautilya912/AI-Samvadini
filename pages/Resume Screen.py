@@ -5,8 +5,8 @@ from speech_recognition.openai_whisper import save_wav_file, transcribe
 from audio_recorder_streamlit import audio_recorder
 from langchain_community.callbacks import get_openai_callback
 from langchain_community.chat_models import ChatOpenAI
-from langchain_community.memory import ConversationBufferMemory
-from langchain_community.chains import RetrievalQA, ConversationChain
+from langchain.memory import ConversationBufferMemory
+from langchain.chains import RetrievalQA, ConversationChain
 from langchain.prompts.prompt import PromptTemplate
 from prompts.prompts import templates
 from typing import Literal
