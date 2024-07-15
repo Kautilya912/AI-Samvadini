@@ -11,7 +11,8 @@ from langchain.chains import ConversationChain, RetrievalQA
 from langchain.prompts.prompt import PromptTemplate
 from langchain.text_splitter import NLTKTextSplitter
 #from langchain_openai import OpenAIEmbeddings
-from langchain_community.embeddings import OpenAIEmbeddings 
+from langchain.embeddings import OpenAIEmbeddings
+#from langchain_community.embeddings import OpenAIEmbeddings 
 from langchain_community.vectorstores import FAISS
 import nltk
 from prompts.prompts import templates 
