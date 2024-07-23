@@ -6,7 +6,7 @@ from app_utils import switch_page
 #from PIL import Image
 
 #im = Image.open("icon.png")
-st.set_page_config(page_title = "AI Samvadini", layout = "centered",page_icon=im)
+st.set_page_config(page_title = "AI Samvadini", layout = "centered")
 
 lan = st.selectbox("#### Language", ["English", "Comming Soon!"])
 
