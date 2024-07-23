@@ -3,10 +3,10 @@ st.image("icon.png")
 from streamlit_option_menu import option_menu
 from app_utils import switch_page
 #import streamlit as st
-#from PIL import Image
+from PIL import Image
 
-#im = Image.open("icon.png")
-st.set_page_config(page_title = "AI Samvadini", layout = "centered")
+im = Image.open("icon.png")
+st.set_page_config(page_title = "AI Samvadini", layout = "centered",page_icon=im)
 
 lan = st.selectbox("#### Language", ["English", "Comming Soon!"])
 
