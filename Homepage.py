@@ -44,14 +44,14 @@ if lan == "English":
     #st.markdown("#### Greetings")
     st.markdown("Welcome to AI Samvadini! 👏 AI Samvadini is your personal podcaste interviewer powered by generative AI that conducts Podcaste."
                 " You can upload your resume and enter job profile, and AI Samvadini will ask you customized questions. Additionally, you can configure your own Podcast Interviewer!")
-    st.markdown("""\n""")
-    with st.expander("Updates"):
-        st.write("""
-        07/10/2024
-        - Fix the error that was occuring on the Behavioral page """)
-    with st.expander("What's coming next?"):
-        st.write("""
-        Improved voice interaction for a seamless experience. """)
+    # st.markdown("""\n""")
+    # with st.expander("Updates"):
+    #     st.write("""
+    #     07/10/2024
+    #     - Fix the error that was occuring on the Behavioral page """)
+    # with st.expander("What's coming next?"):
+    #     st.write("""
+    #     Improved voice interaction for a seamless experience. """)
     st.markdown("""\n""")
     st.markdown("#### Get started!")
     st.markdown("Select one of the following screens to start your interview!")
@@ -103,5 +103,13 @@ if lan == "English":
              
              Coming at the end of July""")
     st.markdown("""\n""")
+    #st.markdown("""\n""")
+    with st.expander("Updates"):
+        st.write("""
+        07/10/2024
+        - Fix the error that was occuring on the Behavioral page """)
+    with st.expander("What's coming next?"):
+        st.write("""
+        Improved voice interaction for a seamless experience. """)
     st.markdown("#### Kautilya Utkarsh")
   
